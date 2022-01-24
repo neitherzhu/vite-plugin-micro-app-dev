@@ -1,9 +1,10 @@
 {
   "name": "vite-plugin-micro-app-dev",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
+    "build": "rollup -c",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,5 +21,8 @@
   "dependencies": {
     "axios": "^0.25.0",
     "cheerio": "*"
+  },
+  "devDependencies": {
+    "rollup": "^2.66.0"
   }
 }
