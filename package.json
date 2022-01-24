@@ -1,0 +1,24 @@
+{
+  "name": "vite-plugin-micro-app-dev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neitherzhu/vite-plugin-micro-app-dev.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neitherzhu/vite-plugin-micro-app-dev/issues"
+  },
+  "homepage": "https://github.com/neitherzhu/vite-plugin-micro-app-dev#readme",
+  "dependencies": {
+    "axios": "^0.25.0",
+    "cheerio": "*"
+  }
+}
